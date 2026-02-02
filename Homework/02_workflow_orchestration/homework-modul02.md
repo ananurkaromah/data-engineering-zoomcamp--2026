@@ -44,7 +44,7 @@ Kestra -> Executions -> Output (for yellow 12/2020)
 Kestra reports file size in **MiB**:
 
 ### Answer
-:white_check_mark:**128.3 MB**
+:white_check_mark:**128.3 MiB**
 
 
 ## Question 2.
