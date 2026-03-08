@@ -1,171 +1,164 @@
-# Data Engineering Zoomcamp 2026 🚀
+# Data Engineering Zoomcamp – Homework Repository
 
-This repository documents my hands-on journey through the **Data Engineering Zoomcamp 2026** by DataTalksClub.
+This repository contains my homework and practice projects from the **Data Engineering Zoomcamp** program.  
+Each folder represents a module that covers different concepts and tools used in modern data engineering workflows.
 
-It showcases real-world data engineering skills, including building scalable data pipelines, designing data warehouses, orchestrating workflows, and processing batch & streaming data using modern tools and cloud infrastructure.
-
----
-
-## 👋 About Me
-
-I am an aspiring **Data Engineer** with a strong interest in:
-- Building reliable and scalable data pipelines
-- Designing analytics-ready data warehouses
-- Applying best practices in analytics engineering
-- Working with both batch and streaming data systems
-
-This repository serves as a **portfolio of practical data engineering work**, not just course notes.
+The course material can be found on GitHub here: [DataTalksClub/data-engineering-zoomcamp: Free Data Engineering course!](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main)
 
 ---
 
-## 🧠 What I Learned (Key Skills)
-
-Through this program, I gained hands-on experience in:
-
-- **Containerization & Infrastructure as Code**
-  - Docker, Docker Compose
-  - Terraform for cloud infrastructure provisioning (GCP)
-
-- **Data Ingestion & Orchestration**
-  - API-based ingestion
-  - Incremental loading & normalization
-  - Workflow orchestration using Kestra
-
-- **Data Warehousing**
-  - BigQuery fundamentals
-  - Partitioning, clustering, and performance optimization
-  - SQL-based analytics at scale
-  - Machine Learning features in BigQuery
-
-- **Analytics Engineering**
-  - Data modeling (fact & dimension tables)
-  - dbt with DuckDB & BigQuery
-  - Testing, documentation, and deployment of analytics models
-
-- **Data Platforms with Bruin** - tools that help you manage the entire data lifecycle from ingestion to analytics. Bruin puts multiple tools under one platform:
-  - Data ingestion (extract from sources to your warehouse)
-  - Data transformation (cleaning, modeling, aggregating)
-  - Data orchestration (scheduling and dependency management)
-  - Data quality (built-in checks and validation)
-  - Metadata management (lineage, documentation)
-
-- **Batch Processing**
-  - Apache Spark
-  - DataFrames and Spark SQL
-  - Understanding joins and aggregations at scale
-
-- **Streaming Systems**
-  - Apache Kafka
-  - Kafka Streams & KSQL
-  - Schema management with Avro
+## 📂 Project Structure
+Homework
+├── 01_docker_terraform
+├── 02_workflow_orchestration
+├── 03_data_warehouse
+├── 04_analytics_engineering
+├── 05-data-platforms
+├── 06-batch
+├── 07-streaming
+└── workshop_Ingestion_with_dlt
 
 ---
 
-## 📚 Program Structure
+## 📚 Modules Overview
 
-### Module 1: Containerization & Infrastructure as Code
-- Docker & Docker Compose
-- PostgreSQL in containers
-- Terraform on Google Cloud Platform
-- Homework: End-to-end local data setup
+### 1️⃣ Docker & Terraform
+**Folder:** `01_docker_terraform`
 
----
+This module focuses on infrastructure setup and environment management.
 
-### Module 2: Workflow Orchestration
-- Data Lakes concepts
-- Workflow orchestration using **Kestra**
-- Homework: Scheduled and parameterized pipelines
-
----
-
-### Workshop 1: Data Ingestion
-- API ingestion and pipeline scalability
-- Data normalization
-- Incremental loading strategies
-- Homework: Production-style ingestion pipeline
+Topics covered:
+- Docker containers
+- Docker Compose
+- Infrastructure as Code using Terraform
+- Provisioning cloud resources
+- Managing development environments
 
 ---
 
-### Module 3: Data Warehousing
-- BigQuery fundamentals
-- Partitioning & clustering
-- Cost and performance optimization
-- Machine learning in BigQuery
+### 2️⃣ Workflow Orchestration
+**Folder:** `02_workflow_orchestration`
+
+This module introduces workflow orchestration tools used to manage data pipelines.
+
+Topics covered:
+- Scheduling pipelines
+- Task dependencies
+- Data pipeline orchestration
+- Monitoring pipeline execution
+
+Common tools:
+- Kestra
 
 ---
 
-### Module 4: Analytics Engineering
-- Analytics engineering principles
-- dbt with DuckDB & BigQuery
-- Testing, documentation, and deployment
+### 3️⃣ Data Warehouse
+**Folder:** `03_data_warehouse`
 
----
-### Module 5: Data platform with Bruin
-- Data ingestion (extract from sources to your warehouse)
-- Data transformation (cleaning, modeling, aggregating)
-- Data orchestration (scheduling and dependency management)
-- Data quality (built-in checks and validation)
-- Metadata management (lineage, documentation)s
+This module focuses on designing and building scalable data warehouses.
 
----
-### Module 6: Batch Processing
-- Apache Spark fundamentals
-- DataFrames & Spark SQL
-- Internals of joins and aggregations
+Topics covered:
+- Data warehouse architecture
+- ETL / ELT pipelines
+- BigQuery / cloud warehouse concepts
+- Data partitioning and clustering
+- Query optimization
 
 ---
 
-### Module 7: Streaming
-- Apache Kafka fundamentals
-- Kafka Streams and KSQL
-- Schema management with Avro
+### 4️⃣ Analytics Engineering
+**Folder:** `04_analytics_engineering`
+
+This module focuses on transforming raw data into analytics-ready datasets.
+
+Topics covered:
+- Data modeling
+- Transformations
+- SQL best practices
+- dbt (data build tool)
+- Building data marts
 
 ---
 
-### Final Project
-- End-to-end data engineering solution
-- Real-world dataset
-- Cloud infrastructure, ingestion, transformation, and analytics
-- Peer review and feedback process
+### 5️⃣ Data Platforms
+**Folder:** `05-data-platforms`
+
+This module explores modern data platforms and scalable data processing systems.
+
+Topics covered:
+- Data lake architecture
+- Distributed processing
+- Platform design principles
+- Data infrastructure concepts
 
 ---
 
-## 🛠️ Tech Stack
+### 6️⃣ Batch Processing
+**Folder:** `06-batch`
 
-- **Cloud**: Google Cloud Platform (GCP)
-- **Containers**: Docker, Docker Compose
-- **Databases**: PostgreSQL, BigQuery
-- **Orchestration**: Kestra
-- **Transformation**: dbt
-- **Batch Processing**: Apache Spark
-- **Streaming**: Apache Kafka
-- **Languages**: SQL, Python
+This module focuses on large-scale batch data processing.
 
----
-
-## 🎯 Why This Repository Matters
-
-This repository demonstrates my ability to:
-- Translate business problems into data pipelines
-- Work with modern data engineering tools
-- Build reproducible and scalable systems
-- Apply industry best practices, not just theory
-
-It is designed to be reviewed by **recruiters, hiring managers, and fellow data engineers**.
+Topics covered:
+- Batch pipelines
+- Distributed data processing
+- Tools such as Spark
+- Handling large datasets efficiently
 
 ---
 
-## 📌 Notes
+### 7️⃣ Streaming
+**Folder:** `07-streaming`
 
-- Large datasets are not committed to this repository
-- Each module includes hands-on exercises and homework
-- The repository is updated continuously as the program progresses
+This module introduces real-time data processing systems.
+
+Topics covered:
+- Streaming architectures
+- Event-driven pipelines
+- Message queues
+- Real-time analytics
+
+Technologies may include:
+- Kafka
+- Stream processing frameworks
 
 ---
 
-## 🙏 Acknowledgements
+### 8️⃣ Data Ingestion with dlt
+**Folder:** `workshop_Ingestion_with_dlt`
 
-- DataTalksClub
-- Data Engineering Zoomcamp instructors and community
+This workshop focuses on building modern ingestion pipelines using **dlt (data load tool)**.
 
+Topics covered:
+- API ingestion
+- Automated schema management
+- Incremental loading
+- Loading data into analytical databases (e.g., DuckDB)
 
+---
+
+## 🛠️ Tools & Technologies
+
+Some of the technologies used in this repository include:
+
+- Python
+- SQL
+- Docker
+- Terraform
+- dbt
+- Prefect / Airflow
+- Spark
+- Kafka
+- DuckDB
+- Google Cloud Platform
+
+---
+
+## 🎯 Learning Goals
+
+- Build end-to-end data pipelines
+- Understand modern data stack architecture
+- Practice infrastructure automation
+- Implement batch and streaming workflows
+- Develop real-world data engineering skills
+
+---
